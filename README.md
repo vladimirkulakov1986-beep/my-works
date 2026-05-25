@@ -57,6 +57,27 @@ cd 8-03-hw
 git add
 git commit -m "Выполнено домашнее задание 8-03"
 git push origin main
+sudo docker run --name zabbix-agent-1 -d \
+  --net=host \
+  --privileged \
+  --pid=host \
+  -v /:/host:ro \
+  -e ZBX_SERVER_HOST="10.0.2.15,127.0.0.1,10.0.2.2" \
+  -e ZBX_ENABLEROOTSTATUS=1 \
+  -e ZBX_HOSTNAME="kulakovva-1" \
+  --restart unless-stopped \
+  zabbix/zabbix-agent2:alpine-latest
+sudo docker run --name zabbix-agent-2 -d \
+  --privileged \
+  --pid=host \
+  -v /:/host:ro \
+  -p 10052:10050 \
+  -e ZBX_SERVER_HOST="10.0.2.15,127.0.0.1,10.0.2.2" \
+  -e ZBX_ENABLEROOTSTATUS=1 \
+  -e ZBX_HOSTNAME="kulakovva-2" \
+  --restart unless-stopped \
+  zabbix/zabbix-agent2:alpine-latest
+
 ....
 ....
 ....
