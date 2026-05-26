@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`Zabbix`" - `Kulakov Vladimir`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -40,8 +40,8 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-/home/vboxuser/Desktop/8-03/zabbix-hw/img/zadanie1.png
+![zadanie1](Zabbix/img/zadanie1.png)`
+
 
 
 ---
@@ -54,10 +54,11 @@ git --version
 cd ~/Desktop/8-03
 git clone https://github.com
 cd 8-03-hw
-git add
+git add.
 git commit -m "Выполнено домашнее задание 8-03"
 git push origin main
 sudo docker run --name zabbix-agent-1 -d \
+```
   --net=host \
   --privileged \
   --pid=host \
@@ -67,7 +68,9 @@ sudo docker run --name zabbix-agent-1 -d \
   -e ZBX_HOSTNAME="kulakovva-1" \
   --restart unless-stopped \
   zabbix/zabbix-agent2:alpine-latest
+```
 sudo docker run --name zabbix-agent-2 -d \
+ ```
   --privileged \
   --pid=host \
   -v /:/host:ro \
@@ -76,6 +79,7 @@ sudo docker run --name zabbix-agent-2 -d \
   -e ZBX_ENABLEROOTSTATUS=1 \
   -e ZBX_HOSTNAME="kulakovva-2" \
   --restart unless-stopped \
+ ```
   zabbix/zabbix-agent2:alpine-latest
 
 ....
@@ -86,6 +90,9 @@ sudo docker run --name zabbix-agent-2 -d \
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
+![zadanie2](Zabbix/img/Zadanie2.png)`
+![zadanie2-2](Zabbix/img/Zadanie2-2.png)`
+![zadanie2-3](Zabbix/img/Zadanie2-3.png)`
 
 /home/vboxuser/Desktop/8-03/zabbix-hw/img/zadanie2.png
 /home/vboxuser/Desktop/8-03/zabbix-hw/img/zadanie2-2.png
