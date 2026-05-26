@@ -25,6 +25,7 @@
 ### Задание 1
 
 `Приведите ответ в свободной форме........`
+```
 su -
 apt install postgresql
 wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
@@ -37,17 +38,17 @@ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psq
 nano /etc/zabbix/zabbix_server.conf
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
-
+```
 
 `При необходимости прикрепитe сюда скриншоты
-![zadanie1](Zabbix/img/zadanie1.png)`
+![zadanie1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie1.png)`
 
 
 
 ---
 
 ### Задание 2
-
+```
 sudo apt update
 sudo apt install git -y
 git --version
@@ -58,7 +59,7 @@ git add.
 git commit -m "Выполнено домашнее задание 8-03"
 git push origin main
 sudo docker run --name zabbix-agent-1 -d \
-```
+
   --net=host \
   --privileged \
   --pid=host \
@@ -68,9 +69,9 @@ sudo docker run --name zabbix-agent-1 -d \
   -e ZBX_HOSTNAME="kulakovva-1" \
   --restart unless-stopped \
   zabbix/zabbix-agent2:alpine-latest
-```
+
 sudo docker run --name zabbix-agent-2 -d \
- ```
+
   --privileged \
   --pid=host \
   -v /:/host:ro \
@@ -79,9 +80,9 @@ sudo docker run --name zabbix-agent-2 -d \
   -e ZBX_ENABLEROOTSTATUS=1 \
   -e ZBX_HOSTNAME="kulakovva-2" \
   --restart unless-stopped \
- ```
+ 
   zabbix/zabbix-agent2:alpine-latest
-
+```
 ....
 ....
 ....
@@ -90,13 +91,11 @@ sudo docker run --name zabbix-agent-2 -d \
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
-![zadanie2](Zabbix/img/Zadanie2.png)`
-![zadanie2-2](Zabbix/img/Zadanie2-2.png)`
-![zadanie2-3](Zabbix/img/Zadanie2-3.png)`
+![zadanie2](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/Zadanie2.png)`
+![zadanie2-2](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie2-2.png)`
+![zadanie2-3](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/Zadanie2-3.png)`
 
-/home/vboxuser/Desktop/8-03/zabbix-hw/img/zadanie2.png
-/home/vboxuser/Desktop/8-03/zabbix-hw/img/zadanie2-2.png
-/home/vboxuser/Desktop/8-03/zabbix-hw/img/zadanie2-3.png
+
 ---
 
 ### Задание 3
