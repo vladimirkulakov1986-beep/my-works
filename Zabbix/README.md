@@ -40,7 +40,6 @@ systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-При необходимости прикрепитe сюда скриншоты
 ![zadanie1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie1.png)
 
 
@@ -82,10 +81,6 @@ sudo docker run --name zabbix-agent-2 -d \
  
   zabbix/zabbix-agent2:alpine-latest
 ```
-....
-....
-....
-....
 
 
 При необходимости прикрепитe сюда скриншоты
