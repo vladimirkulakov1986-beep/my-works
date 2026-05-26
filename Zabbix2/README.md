@@ -25,30 +25,18 @@
 ### Задание 1
 
 
-
-
-При необходимости прикрепитe сюда скриншоты
 ![Zadanie1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie1.png)
 
 
----
 
-### Задание 2
-
+### Задание 2-3
 
 
-### Задание 3
-
-`
-
-При необходимости прикрепитe сюда скриншоты
 ![Zadanie2-3](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadaaaanie2-3.png)
 
 
 ### Задание 4
 
 
-
-При необходимости прикрепитe сюда скриншоты
 ![Zadanie4](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie4.png)
 
