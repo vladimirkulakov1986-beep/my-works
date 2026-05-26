@@ -25,18 +25,18 @@
 ### Задание 1
 
 
-![Zadanie1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie1.png)
+![задание1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie1.png)
 
 
 
 ### Задание 2-3
 
 
-![Zadanie2-3](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadaaaanie2-3.png)
+![задание2-3](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadaaaanie2-3.png)
 
 
 ### Задание 4
 
 
-![Zadanie4](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie4.png)
+![задание4](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie4.png)
 
