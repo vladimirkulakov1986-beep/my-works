@@ -26,6 +26,7 @@
 
 
 ![задание1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie1.png)
+![задание1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix2/img/Zadanie1.1.png)
 
 
 
