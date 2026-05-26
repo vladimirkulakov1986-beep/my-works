@@ -40,8 +40,8 @@ systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![zadanie1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie1.png)`
+При необходимости прикрепитe сюда скриншоты
+![zadanie1](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie1.png)
 
 
 
@@ -88,11 +88,11 @@ sudo docker run --name zabbix-agent-2 -d \
 ....
 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-![zadanie2](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/Zadanie2.png)`
-![zadanie2-2](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie2-2.png)`
-![zadanie2-3](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/Zadanie2-3.png)`
+При необходимости прикрепитe сюда скриншоты
+![Название скриншота 2](ссылка на скриншот 2)
+![zadanie2](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/Zadanie2.png)
+![zadanie2-2](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/zadanie2-2.png)
+![zadanie2-3](https://github.com/vladimirkulakov1986-beep/zabbix-hw/blob/main/Zabbix/img/Zadanie2-3.png)
 
 
 
