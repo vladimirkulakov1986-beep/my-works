@@ -5,3 +5,4 @@
 *.tfvars
 *.tfvars.json
 .terraform.lock.hcl
+Linux/Database administration/SQL/
